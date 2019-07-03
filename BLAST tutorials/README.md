@@ -1,6 +1,6 @@
 # blast-binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nmarda/blast-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NCBI-Hackathons/ncbi-cloud-tutorials/master?filepath=%2FBLAST%20tutorials%2Findex.ipynb)
 
 *tl;dr:*  
 Click `launch binder` to run command line-based BLAST in your browser.
@@ -67,4 +67,4 @@ I borrrowed the 'warning' highlight/introductory text about notebooks at the top
 
 Click this button below to begin using BLAST (or PatMatch, as well):
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nmarda/blast-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NCBI-Hackathons/ncbi-cloud-tutorials/master?filepath=%2FBLAST%20tutorials%2Findex.ipynb)

@@ -29,4 +29,4 @@ Technical Details
 
 This repository is set up to make use of the binder service offered by [MyBinder.org](https://mybinder.org/). 
 
-Developed mainly from combining much of the binderized repo from [here](https://github.com/fomightez/qgrid-notebooks) with the ability to also run PatMatch, see [here](https://github.com/fomightez/patmatch-binder) for information about PatMatch and launchable Jupyter notebooks demonstrating its use.
+It was developed from combining much of the binderized repo [here](https://github.com/fomightez/qgrid-notebooks) with the ability to also run PatMatch. Click [here](https://github.com/fomightez/patmatch-binder) for information about PatMatch and launchable Jupyter notebooks demonstrating its use.

@@ -1,14 +1,11 @@
-# blast-binder
+# BLAST tutorial with Jupyter Notebooks and Command Line
+
+The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences. Using command line and Python-based features, we can do even more with BLAST. In this tutorial, we demonstrate how to use some of these features. We will use Jupyter notebooks that work in-browser, allowing you to skip setting up the proper environment locally. Click the `launch binder` button below to launch the Jupyter notebook.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NCBI-Hackathons/ncbi-cloud-tutorials/master?filepath=%2FBLAST%20tutorials%2Findex.ipynb)
 
-Click the `launch binder` button above to run command line-based BLAST in your browser.
 
 ------
-
-***BLAST: Basic Local Alignment Search Tool (BLAST+) command-line applications.***
-
-This repository is for running BLAST+ in Jupyter environment provided by [MyBinder.org](https://mybinder.org/). It also incorporates Python-based features.
 
 This tutorial is largely taken from [Wayne's Bioinformatics Code Portal's Blast Binder](https://github.com/fomightez/blast-binder). Most of the code and readme is from this source. It is your responsibility to ensure that your usage of software is in compliance with all applicable usage requirements.
 

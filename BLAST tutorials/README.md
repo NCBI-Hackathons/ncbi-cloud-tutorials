@@ -4,8 +4,8 @@ The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NCBI-Hackathons/ncbi-cloud-tutorials/master?filepath=%2FBLAST%20tutorials%2Findex.ipynb)
 
-
-------
+Attributions
+-----------------
 
 This tutorial is largely taken from [Wayne's Bioinformatics Code Portal's Blast Binder](https://github.com/fomightez/blast-binder). Most of the code and readme is from this source. It is your responsibility to ensure that your usage of software is in compliance with all applicable usage requirements.
 

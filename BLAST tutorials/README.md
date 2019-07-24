@@ -2,7 +2,7 @@
 
 The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences. Using command line and Python-based features, we can do even more with BLAST. In this tutorial, we demonstrate how to use some of these features. We will use Jupyter notebooks that work in-browser, allowing you to skip setting up the proper environment locally. 
 
-Before you launch the notebooks, note that:
+Before you launch the Jupyter notebook, note that:
 
 * They might take a few minutes to launch. You can click the "show" button to the right of "Build logs" to see the launch progress.
 * The notebooks will not work in Internet Explorer or Microsoft Edge. Please use a different browser, such as [Google Chrome](https://www.google.com/chrome/browser/).

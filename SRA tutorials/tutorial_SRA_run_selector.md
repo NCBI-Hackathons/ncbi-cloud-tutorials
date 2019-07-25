@@ -1,7 +1,3 @@
----
-css:
-  - css/hero-image.css
-
 # SRA Run Selector Tutorial
 
 The SRA Run Selector is used to take large sets of runs stored in SRA and determine which runs should be used in your analysis.
@@ -26,17 +22,13 @@ This tutorial will demonstrate its core functionality, as well as other valuable
 
 Start by doing a search for brewer's yeast using the organism in Entrez. You can replicate the example search below by clicking [here](https://www.ncbi.nlm.nih.gov/sra/?term=%22saccharomyces+cerevisiae%22%5BOrganism%5D).
 
-<div id="image">
-    <img src="images/rst_entrez.png" width=50%>
-</div>
+![RST Entrez](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_entrez.png "RST Entrez")
 
 - On the left of the search results, click "aligned data" to limit the search to aligned sets.
 
 - From the "Send To" menu, choose "Run Selector".
 
-<div id="image">
-    <img src="images/rst_send_to.png" width=50%>
-</div>
+![RST Send To](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_send_to.png "RST Send To")
 
 You will receive a warning that only the first 20,000 experiments are being sent to Run Selector, which is sufficient for this tutorial. In the future, you may want to use additional filters to ensure that more of the 20,000 experiments are of interest to you.
 
@@ -46,23 +38,17 @@ You can learn more about Entrez filters by clicking [here](https://www.ncbi.nlm.
 
 Run Selector will take a short time to load all the runs into the table. It will also take some more time to show all the available filters on the left side of the page.
 
-<div id="image">
-    <img src="images/rst_run_selector_open.png" width=50%>
-</div>
+![RST Run Selector Open](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_run_selector_open.png "RST Run Selector Open")
 
 Next we will select filters to limit our set of runs to those available in our cloud provider and aligned using the same reference genome.  These filters use metadata supplied by submitters as the terms.  
 
 *Be sure to read all options in a filter list since alternate spellings or capitilization from different submitters can be found in the filters.*
 
-<div id="image">
-    <img src="images/rst_filter_selection.png" height=50%>
-</div>
+![RST Filter Selection](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_filter_selection.png "RST Filter Selection")
 
 - Click the box for DATASTORE provider and AssemblyName to activate these filters.  They will appear as new boxes beneath the Filters List
 
-<div id="image">
-    <img src="images/rst_chosen_filters.png" height=50%>
-</div>
+![RST Chosen Filters](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_chosen_filters.png "RST Chosen Filters")
 
 Select the relevant AssemblyName filter and the DATASTORE provider filter corresponding to your cloud provider. 
 
@@ -74,15 +60,11 @@ Now that we have filtered the list of runs, we will add all the filtered runs to
 
 Click the blue check box under the "Found Items" flag to add all runs to the selected list.
 
-<div id="image">
-    <img src="images/rst_add_selected.png" width=50%>
-</div>
+![RST Add Selected](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_add_selected.png "RST Add Selected")
 
 This will update the "Selected Row" and allow a cart file or accession list file to be downloaded.
 
-<div id="image">
-    <img src="images/rst_added.png" width=50%>
-</div>
+![RST Added](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_added.png "RST Added")
 
 Click the "Accession List" button to download a text file of the accessions.
 
@@ -92,9 +74,7 @@ Click the "Accession List" button to download a text file of the accessions.
 
 If you already have a Study (PRJ, SRP) or Sample (SAM, SRS) accession to find data for in SRA, you can use [Run Selector](https://www.ncbi.nlm.nih.gov/Traces/study/?) directly to find the data.
 
-<div id="image">
-    <img src="images/rst_search_by_accession.png" width=50%>
-</div>
+![RST Search by Accession](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_search_by_accession.png "RST Search by Accession")
 
 
 ## Using the Filters List
@@ -106,15 +86,13 @@ Filters allows us to limit our set of runs to those available in our cloud provi
 
 *Be sure to read all options in a filter list because alternate spellings or capitilization from multiple submitters can be found in the filters.*
 
-<div id="image">
-    <img src="images/rst_filter_selection.png" height=50%>
-</div>
+![RST Filter Selection](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_filter_selection.png "RST Filter Selection")
+
 
 - Click the box for AssemblyName to activate this filter.  It will appear as a new boxe beneath the Filters List
 
-<div id="image">
-    <img src="images/rst_chosen_filters.png" height=50%>
-</div>
+![RST Chosen Filters](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_chosen_filters.png "RST Chosen Filters")
+
 
 Select the relevant AssemblyName filter and the DATASTORE provider filter corresponding to your cloud provider. 
 
@@ -122,11 +100,3 @@ The list of runs will now be limited to just those available at the cloud provid
 
 ## Using the Help Button
 At the top of the Run Selector page, there is a question mark to the right of the "Run Selector" title.  Clicking this will toggle the help text for the parts of the Run Selector page.
-
-[= top_nav =]
-
-{! _top-nav.md !}
-
-[= mobile_nav =]
-
-{! _mobile-nav.md !}

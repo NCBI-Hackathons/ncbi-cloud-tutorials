@@ -1,7 +1,3 @@
----
-css:
-  - css/hero-image.css
-
 # BLAST+ Tutorial
 
 The [NCBI BLAST+ program](https://blast.ncbi.nlm.nih.gov) finds regions of local similarity between sequences. It has many features, which are detailed [here](https://www.ncbi.nlm.nih.gov/books/NBK279690/).
@@ -218,7 +214,8 @@ You should see the output file ```$HOME/results/blastp.out```. With your query, 
 
 ## Stop the GCP instance
 Remember to [stop](https://cloud.google.com/compute/docs/instances/stop-start-instance) or [delete](https://cloud.google.com/compute/docs/instances/stop-start-instance) the VM to prevent incurring additional cost. You can do this at the GCP Console as shown below.
-![GCP instance stop](images/gcp-instance-stop.png)
+
+![GCP instance stop](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/gcp-instance-stop.png "GCP instance stop")
 
 ## Using BLAST at Production Scale
 One of the benefits of cloud computing is scalability. In this section, we will demonstrate how to use the BLAST+ Docker image at production scale on GCP. We will perform a BLAST analysis similar to the approach described in this [publication](https://www.ncbi.nlm.nih.gov/pubmed/31040829) to compare de novo aligned contigs from bacterial 16S-23S sequencing against the nucleotide collection (nt) database.
@@ -386,7 +383,9 @@ As with all Docker images, these likely also contain other software which may be
 
 # Appendix
 ## Appendix A. Cloud and Docker Concepts
-![Cloud-Docker-Simple](images/cloud-docker-simple.png)
+
+![Cloud Docker Simple](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/cloud-docker-simple.png "Cloud docker simple")
+
 Figure 1. Docker and Cloud Computing Concept. Users can access compute resources provided by cloud service providers (CSPs), such as the Google Cloud Platform, using SSH tunneling (1). When you create a VM (2), a hard disk (also called a boot/persistent disk) (3) is attached to that VM. With the right permissions, VMs can also access other storage buckets (4) or other data repositories in the public domain. Once inside a VM with Docker installed, you can run a Docker image (5), such as NCBI's BLAST image. An image can be used to create multiple running instances or containers (6). Each container is in an isolated environment. In order to make data accessible inside the container, you need to use Docker bind mounts (7) described in this tutorial. 
 
 *A Docker image can be used to create a Singularity image.  Please refer to Singularity's [documentation](https://www.sylabs.io/singularity/) for more detail.*
@@ -484,11 +483,3 @@ gcloud compute scp $HOME/script.out instance-1:~
 
 gcloud compute scp instance-1:~/script.out $HOME/.
 ```
-
-[= top_nav =]
-
-{! _top-nav.md !}
-
-[= mobile_nav =]
-
-{! _mobile-nav.md !}

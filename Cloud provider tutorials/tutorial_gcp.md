@@ -1,7 +1,3 @@
----
-css:
-  - css/hero-image.css
-
 # GCP Tutorial
 
 Cloud computing uses on-demand, scalable, and elastic computational resources for more powerful and efficient processes. Here, we provide instructions for getting set up with a leading cloud service, [Google Cloud Platform (GCP)](https://cloud.google.com/). This process will require a Google account, which you can create [here](https://accounts.google.com). It will also require billing information, but GCP currently offers a $300 credit for first-time users. 
@@ -71,11 +67,3 @@ Connect to your new VM instance by clicking the "SSH" button.
 ![GCP SSH](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/gcp-ssh.png "GCP SSH")
 
 Remember to [stop](https://cloud.google.com/compute/docs/instances/stop-start-instance) or [delete](https://cloud.google.com/compute/docs/instances/stop-start-instance) the VM to prevent incurring additional cost.
-
-[= top_nav =]
-
-{! _top-nav.md !}
-
-[= mobile_nav =]
-
-{! _mobile-nav.md !}

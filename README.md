@@ -15,5 +15,5 @@ NCBI has compiled a variety of tutorials to help you get acquainted with NCBI to
 
 ## Basic Local Alignment Search Tool (BLAST)
 
-* <a href="https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/BLAST%20tutorials/README.md#blast-tutorial-with-jupyter-notebooks-and-command-line" target="_blank">BLAST with Command Line and Python (using Jupyter Notebooks in-browswer) tutorial</a>.
+* <a href="https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/BLAST%20tutorials/README.md#blast-tutorial-with-jupyter-notebooks-and-command-line" target="_blank">BLAST with Command Line and Python (using Jupyter Notebooks in-browser) tutorial</a>.
 * <a href="https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/BLAST%20tutorials/tutorial_blast_gcp.md#blast-tutorial" target="_blank">BLAST on Google Cloud Platform tutorial</a>.

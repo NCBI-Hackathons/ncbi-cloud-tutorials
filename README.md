@@ -1,6 +1,6 @@
 # NCBI in the Cloud Tutorials
 
-Welcome to the NCBI cloud tutorials! This Github repository hosts tutorials for using NCBI cloud data and computing. 
+Welcome to the NCBI in the Cloud tutorials! This Github repository hosts tutorials for using NCBI cloud data and computing. 
 
 # Tutorials
 

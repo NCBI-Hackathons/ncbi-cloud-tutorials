@@ -47,7 +47,7 @@ You now will see your Cloud Shell session window:
 ## Creating a Virtual Machine (VM)
 * Click on the navigation menu in the top left corner and select "Compute Engine".
 
-![GCP Instance](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/images/gcp-instance.png "GCP Instance")
+![GCP Instance](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/gcp-instance.png "GCP Instance")
 
 * Click "Create Instance" on the top bar.  
 

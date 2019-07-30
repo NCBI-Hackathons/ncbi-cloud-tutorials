@@ -22,11 +22,10 @@ The BLAST software references are listed [here](https://blast.ncbi.nlm.nih.gov/B
 
 NCBI has made available an Amazon Machine Image (AMI) that will generate a remote cloud compute instance already set to run standalone BLAST, see [here](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=CloudBlast). Additional documentation is [here](http://ncbi.github.io/blast-cloud/).
 
-Here are some web-based BLAST resources:
+More on BLAST:
 
 * [NCBI's main BLAST page](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
-* [Saccharomyces Genome Database web interface](https://www.yeastgenome.org/blast-sgd)
-* [SequenceServer](http://www.sequenceserver.com/) lets you set up a BLAST+ server for individual use or for sharing datasets and lists several community databases that use it for a querying mechanism.
+
 
 Technical Details
 -----------------

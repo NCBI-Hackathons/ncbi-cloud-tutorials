@@ -1,25 +1,6 @@
 # GCP Tutorial
 
-Cloud computing uses on-demand, scalable, and elastic computational resources for more powerful and efficient processes. Here, we provide instructions for getting set up with a leading cloud service, [Google Cloud Platform (GCP)](https://cloud.google.com/). This process will require a Google account, which you can create [here](https://accounts.google.com). It will also require billing information, but GCP currently offers a $300 credit for first-time users. 
-
-# Get Set up for Cloud Computing
-
-In a new window, use your Google account to sign into [Google Cloud Platform Console](https://console.cloud.google.com/).
-
-Click the "Activate Cloud Shell" button at the top right corner of the Google Cloud Platform Console. 
-
-![Activate Cloud Shell](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/activate-cloud-shell.png "Activate cloud shell")
-   
-You now will see your Cloud Shell session window:
-![Cloud Shell](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/cloud-shell-commandline.png "Cloud shell")
-
-*Tips for navigating the shell:*
-
-   * Note that in the shell, you must use keyboard commands to execute copy and paste commands. In Windows or Unix/Linux, use the shortcut `Control+C` to copy and `Control+V` to paste. On macOS, use `Command+C` to copy and `Command+V` to paste.
-   * To scroll in the Cloud Shell, enable the scrollbar in `Terminal settings` with the wrench icon.
-
-
-![Cloud shell wrench](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/cloud-shell-commandline.png "Cloud shell wrench")
+Cloud computing uses on-demand, scalable, and elastic computational resources for more powerful and efficient processes. Here, we provide instructions for getting set up with a leading cloud service, [Google Cloud Platform (GCP)](https://cloud.google.com/). Then we will set up a virtual machine instance. This process will require a Google account, which you can create [here](https://accounts.google.com). It will also require billing information, but GCP currently offers a $300 credit for first-time users. 
 
 ## Getting set up on GCP
    * In a new window, sign in at <dfn id="def-ncbi"><a href="https://console.cloud.google.com/">Google Cloud Platform Console</a></dfn>.
@@ -45,7 +26,7 @@ You now will see your Cloud Shell session window:
 
 ![GCP Instance](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/gcp-instance.png "GCP Instance")
 
-* Click "Create Instance" on the top bar.  
+* Click "VM instances" on the top bar.  
 
 * Create an image with the following parameters (choose default if an option is unavailable): 
     * Name: trial-vm

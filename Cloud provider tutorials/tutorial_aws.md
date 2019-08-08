@@ -1,6 +1,6 @@
 # AWS Tutorial
 
-Cloud computing uses on-demand, scalable, and elastic computational resources for more powerful and efficient processes. Here, we provide instructions for getting set up with a leading cloud service, [Amazon Web Services (AWS)](https://aws.amazon.com/). Then we will set up a virtual machine instance. This process will require a Google account, which you can create [here](https://portal.aws.amazon.com/billing/signup#/start). It will also require billing information, but AWS currently offers 12 months of free tier access. AWS will not charge you if you stay within the limits of the AWS free tier.
+Cloud computing uses on-demand, scalable, and elastic computational resources for more powerful and efficient processes. Here, we provide instructions for getting set up with a leading cloud service, [Amazon Web Services (AWS)](https://aws.amazon.com/). Then we will set up a virtual machine instance. This process will require a Amazon account, which you can create [here](https://portal.aws.amazon.com/billing/signup#/start). It will also require billing information, but AWS currently offers 12 months of free tier access. AWS will not charge you if you stay within the limits of the AWS free tier.
 
 ## Getting set up on AWS
    * In a new window, sign in at <dfn id="def-ncbi"><a href="https://aws.amazon.com/">Amazon Web Services</a></dfn>.

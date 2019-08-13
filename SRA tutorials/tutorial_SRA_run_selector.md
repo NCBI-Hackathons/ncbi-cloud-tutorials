@@ -20,7 +20,7 @@ This tutorial will demonstrate its core functionality, as well as other valuable
 
 ## Find SRA Data in Entrez
 
-Start by doing a search for brewer's yeast using the organism in Entrez. You can replicate the example search below by clicking [here](https://www.ncbi.nlm.nih.gov/sra/?term=%22saccharomyces+cerevisiae%22%5BOrganism%5D).
+Start by doing a search for brewer's yeast using the organism in Entrez. You can replicate the example search below by clicking <a href="https://www.ncbi.nlm.nih.gov/sra/?term=%22saccharomyces+cerevisiae%22%5BOrganism%5D" target="_blank">here</a>.
 
 ![RST Entrez](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_entrez.png "RST Entrez")
 
@@ -32,7 +32,7 @@ Start by doing a search for brewer's yeast using the organism in Entrez. You can
 
 You will receive a warning that only the first 20,000 experiments are being sent to Run Selector, which is sufficient for this tutorial. In the future, you may want to use additional filters to ensure that more of the 20,000 experiments are of interest to you.
 
-You can learn more about Entrez filters by clicking [here](https://www.ncbi.nlm.nih.gov/books/NBK53591/).
+You can learn more about Entrez filters by clicking <a href="https://www.ncbi.nlm.nih.gov/books/NBK53591/" target="_blank">here</a>.
 
 ## Filter an Accession List
 
@@ -72,7 +72,7 @@ Click the "Accession List" button to download a text file of the accessions.
 
 ## Search for Accessions Data
 
-If you already have a Study (PRJ, SRP) or Sample (SAM, SRS) accession to find data for in SRA, you can use [Run Selector](https://www.ncbi.nlm.nih.gov/Traces/study/?) directly to find the data.
+If you already have a Study (PRJ, SRP) or Sample (SAM, SRS) accession to find data for in SRA, you can use <a href="https://www.ncbi.nlm.nih.gov/Traces/study/?" target="_blank">Run Selector</a> directly to find the data.
 
 ![RST Search by Accession](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_search_by_accession.png "RST Search by Accession")
 

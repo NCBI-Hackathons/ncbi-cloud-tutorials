@@ -38,6 +38,8 @@ The vdb-config program will allow you to set the expected behavior of the SRA to
 
 When vdb-config opens, it will start on the Main page. Make sure Enable Remote Access has an X in the box.  
 
+![SRA Toolkit Configuration](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_main.png "SRA Toolkit Configuration Main Page")
+
 ## Cache
 Set or update the cache directory by pressing `c` on the keyboard.  If you have an attached stable storage for work (AWS S3 or Google GS) you likely want to set the public user-repository to a directory in the bucket.
 

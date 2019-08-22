@@ -65,5 +65,5 @@ Getting a list of accessions from your local computer to the cloud can be accomp
 
 - MyKeyPair.pem - The key pair that was selected when starting the AWS EC2 isntance.
 - SRR_Acc_List.txt - The list of accessions to transfer to the cloud compute instance.
-- ec2-user@18.191.41.51:/home/ec2-user/ - The cloud compute instance the file is being transferred to.
+- ec2-user@18.191.41.51:/home/ec2-user/ - **MAKE SURE TO USE YOUR INSTANCE INFO RATHER THAN THIS EXAMPLE INFO** The cloud compute instance the file is being transferred to. 
 

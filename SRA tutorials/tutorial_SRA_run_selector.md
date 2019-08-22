@@ -68,6 +68,8 @@ This will update the "Selected Row" and allow a cart file or accession list file
 
 Click the "Accession List" button to download a text file of the accessions.
 
+![RST_Accession_List](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_accession_list.png "RST Accession List")
+
 # Other valuable skills
 
 ## Search for Accessions Data

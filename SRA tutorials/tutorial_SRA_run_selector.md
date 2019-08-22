@@ -99,4 +99,4 @@ Select the relevant AssemblyName filter and the DATASTORE provider filter corres
 The list of runs will now be limited to just those available at the cloud provider you will use, as well as aligned to the chosen reference genome.
 
 ## Using the Help Button
-At the top of the Run Selector page, there is a question mark to the right of the "Run Selector" title.  Clicking this will toggle the help text for the parts of the Run Selector page.
+At the top of the Run Selector page, there is a question mark to the right of the "Run Selector" title.  Clicking this will toggle the help text buttons on the Run Selector page.

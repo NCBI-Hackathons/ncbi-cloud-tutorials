@@ -46,11 +46,11 @@ Next we will select filters to limit our set of runs to those available in our c
 
 ![RST Filter Selection](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_filter_selection.png "RST Filter Selection")
 
-- Click the box for DATASTORE region and AssemblyName to activate these filters.  They will appear as new boxes beneath the Filters List
+- Click the box for DATASTORE region (if it is present) and AssemblyName to activate these filters.  They will appear as new boxes beneath the Filters List.  SRA is constantly adding new data so the number of runs may be different for you than shown in this tutorial.  The DATASTORE region filter will not be available to select if all the runs in Run Selector have been successfully copied to the cloud already.
 
 ![RST Chosen Filters](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/rst_chosen_filters.png "RST Chosen Filters")
 
-Select the relevant AssemblyName filter and the DATASTORE region filter corresponding to your cloud provider. 
+Select the relevant AssemblyName filter and the DATASTORE region filter (if present) corresponding to your cloud provider.
 
 The list of runs will now be limited to just those available at the cloud provider you will use, as well as aligned to the chosen reference genome.
 

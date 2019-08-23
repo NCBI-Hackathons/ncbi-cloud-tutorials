@@ -49,7 +49,7 @@ The process-local location is a cache that is used by individual toolkit process
 
 By pressing `a` on the keyboard for Amazon AWS or `g` on the keyboard for Google GCP, you can configure the usage for your cloud provider.  Press `e` to enable user pays options for accessing data that is not stored in a free to access location.  The current free data is stored at NCBI, in the AWS free bucket, or is stored in the cloud region that your client is currently running in.  The location of data in the cloud can be found using the Run Selector DATASTORE_region values.  The `r` report cloud instance identity option will allow the toolkit to report the identity of the cloud instance host to NCBI when requesting data.  This information is used to understand the location of the cloud compute instance to provide access to free data locations for that compute instance when possible.  
 
-Please see the [SRA Toolkit Documentation](https://github.com/ncbi/sra-tools/wiki/04.-Toolkit-Configuration) for additional information on Toolkit configuration
+Additional information about configuring the SRA Toolkit can be found [here](https://github.com/ncbi/sra-tools/wiki/04.-Toolkit-Configuration).
 
 ## Testing the SRA Toolkit Installation
 To test the installation of the toolkit, we will output a small bit of fastq to STDOUT.
@@ -59,13 +59,15 @@ To test the installation of the toolkit, we will output a small bit of fastq to 
 This will test that the SRR accession data as well as the genome reference repository stored at NCBI is accessible.
 
 # Upload an Accession List to the Cloud Instance
-Getting a list of accessions from your local computer to the cloud can be accomplished in a number of difference ways.  The process involves copying a of accessions from either the SRA Run Selector, Entrez, or other method to the cloud computer instance where the accessions are needed.  For short lists this can be done by using copy and paste with a text editor like vim or nano on the cloud compute instance.  For longer lists a text file such as the SRR_Acc_List.txt file from Run Selector may need to be copied to the cloud instance.
+Getting a list of accessions from your local computer to the cloud can be accomplished in a number of ways.  The process involves copying a list of accessions from either the SRA Run Selector, Entrez, or other method to the cloud computer instance where the accessions are needed.  For short lists this can be done by using copy and paste with a text editor like vim or nano on the cloud compute instance.  For longer lists a text file such as the SRR_Acc_List.txt file from Run Selector may need to be copied to the cloud instance.
 
-## Using scp on a computer running Unix or OSX to upload to AWS:
+## Using scp on a computer running Unix, OSX, or Windows to upload to AWS:
 
-`scp -i MyKeyPair.pem ./SRR_Acc_List.txt ec2-user@18.191.41.51:/home/ec2-user/`
+For this example we will use `scp` because it should be available on most or all computers you might use.  If you are using a Windows computer, you will need to open a Command Prompt window first.
 
-- MyKeyPair.pem - The key pair that was selected when starting the AWS EC2 isntance.
+`scp -i MyKeyPair.pem SRR_Acc_List.txt ec2-user@18.191.41.51:/home/ec2-user/`
+
+- MyKeyPair.pem - The key pair that was selected when starting the AWS EC2 isntance.  A path 
 - SRR_Acc_List.txt - The list of accessions to transfer to the cloud compute instance.
-- ec2-user@18.191.41.51:/home/ec2-user/ - **MAKE SURE TO USE YOUR INSTANCE INFO RATHER THAN THIS EXAMPLE** The cloud compute instance the file is being transferred to. 
+- ec2-user@18.191.41.51:/home/ec2-user/ - **MAKE SURE TO USE YOUR INSTANCE INFO RATHER THAN THIS EXAMPLE** The cloud compute instance the file is being transferred to. The format of this field is username@ip.address:/location/of/directory
 

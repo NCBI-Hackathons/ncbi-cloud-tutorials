@@ -42,6 +42,8 @@ When vdb-config opens, it will start on the Main page. Make sure Enable Remote A
 
 ![SRA Toolkit Configuration](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_main.png "SRA Toolkit Configuration Main Page")
 
+The configuration tool uses the keyboard to navigate.  Either the tab key can be used to highlight the menu options, or the options can be selected directory using the underlined letter in each menu option.
+
 ## Cache
 Set or update the cache directory by pressing `c` on the keyboard.  If you have an attached stable storage for work (AWS S3 or Google GS) you likely want to set the public user-repository to a directory in the bucket.
 

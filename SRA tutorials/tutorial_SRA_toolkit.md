@@ -2,6 +2,8 @@
 Using SRA format data stored in the cloud will require the SRA Toolkit to be installed.  This guide will teach you how to install and configure the SRA Toolkit on a cloud computing environment using
 - [Amazon EC2](#Install-the-Toolkit-in-Amazon-EC2)
 - [Google GCP](#Install-the-Toolkit-in-Google-GCP)
+- [Configure the SRA Toolkit](#Configure-the-SRA-Toolkit)
+- [Upload an Accession List to the Cloud](#Upload-an-Accession-List-to-a-Cloud-Instance)
 
 ## Install the Toolkit in Amazon EC2
 Start a new EC2 compute instance.  Using the 'Amazon Linux 2 AMI 2.0.20190618 x86_64 HVM gp2' a t2.micro is the minimum instance capacity known to work with this software.
@@ -47,7 +49,7 @@ The process-local location is a cache that is used by individual toolkit process
 
 ## Cloud Provider Configuration
 
-By pressing `a` on the keyboard for Amazon AWS or `g` on the keyboard for Google GCP, you can configure the usage for your cloud provider.  Press `e` to enable user pays options for accessing data that is not stored in a free to access location.  The current free data is stored at NCBI, in the AWS free bucket, or is stored in the cloud region that your client is currently running in.  The location of data in the cloud can be found using the Run Selector DATASTORE_region values.  The `r` report cloud instance identity option will allow the toolkit to report the identity of the cloud instance host to NCBI when requesting data.  This information is used to understand the location of the cloud compute instance to provide access to free data locations for that compute instance when possible.  
+By pressing `a` on the keyboard for Amazon AWS or `g` on the keyboard for Google GCP, you can configure the usage for your cloud provider.  Press `e` to enable user pays options for accessing data that is not stored in a free to access location.  This option will also require [cloud credentials](https://github.com/ncbi/sra-tools/wiki/03.-Cloud-Credentials "SRA Toolkit Cloud Credentials Guide") to be supplied. The current free data is stored at NCBI, in the AWS free bucket, or is stored in the cloud region that your client is currently running in.  The location of data in the cloud can be found using the Run Selector DATASTORE_region values.  The `r` report cloud instance identity option will allow the toolkit to report the identity of the cloud instance to NCBI when requesting data.  This information is used to understand the location of the cloud compute instance to provide access to free data locations for that compute instance when possible.  
 
 Additional information about configuring the SRA Toolkit can be found [here](https://github.com/ncbi/sra-tools/wiki/04.-Toolkit-Configuration).
 
@@ -58,7 +60,7 @@ To test the installation of the toolkit, we will output a small bit of fastq to 
 
 This will test that the SRR accession data as well as the genome reference repository stored at NCBI is accessible.
 
-# Upload an Accession List to the Cloud Instance
+# Upload an Accession List to a Cloud Instance
 Getting a list of accessions from your local computer to the cloud can be accomplished in a number of ways.  The process involves copying a list of accessions from either the SRA Run Selector, Entrez, or other method to the cloud computer instance where the accessions are needed.  For short lists this can be done by using copy and paste with a text editor like vim or nano on the cloud compute instance.  For longer lists a text file such as the SRR_Acc_List.txt file from Run Selector may need to be copied to the cloud instance.
 
 ## Using scp on a computer running Unix, OSX, or Windows to upload to AWS:

@@ -29,7 +29,7 @@ A large number of lines will scroll by as the packages needed for the toolkit in
 
 `source /etc/profile.d/sra-tools.sh`
 
-Note: setup-GCP.sh uses apt-get and may work or need to be modified for various Linux using Debian package management. 
+Note: setup-GCP.sh uses apt-get and may work or need to be modified for various Linux distributions using Debian package management. 
 
 ## Configure the SRA Toolkit
 The Toolkit comes with a command line or GUI configuration program.  You can read and write data to the cloud account without running the configuration program, however without configuration the default output location is the current working directory and the toolkit will not be able to provide egress charge payment information to the cloud provider.

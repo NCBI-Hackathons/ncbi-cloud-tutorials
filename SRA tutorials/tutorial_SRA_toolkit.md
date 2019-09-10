@@ -38,20 +38,35 @@ The vdb-config program will allow you to set the expected behavior of the SRA to
 
 `vdb-config -i` 
 
-When vdb-config opens, it will start on the Main page. Make sure Enable Remote Access has an X in the box.  
+When vdb-config opens, it will start on the Main page. Navigation on this visual configuration program uses the keyboard only, there is no support for using a mouse. Either the tab key can be used to highlight the menu options, or the options can be selected directly using the underlined letter in each menu option.
 
 ![SRA Toolkit Configuration](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_main.png "SRA Toolkit Configuration Main Page")
 
-The configuration tool uses the keyboard to navigate.  Either the tab key can be used to highlight the menu options, or the options can be selected directly using the underlined letter in each menu option.
+## Enable Remote Access
+Make sure the Enable Remote Access option has an X in the [].  If the box does not contain an X, press the `E` key to enable access.  Remote access allows the toolkit to use files stored at NCBI or in the STRIDES cloud.
+
+![Enable Remote Access](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_main_cropped.png "Enable Remote Access")
 
 ## Cache
-Set or update the cache directory by pressing `c` on the keyboard.  If you have an attached stable storage for work (AWS S3 or Google GS) you likely want to set the public user-repository to a directory in the bucket.
+Set or update the cache directory by pressing `c` on the keyboard.  If you have an attached stable storage for work (AWS S3 or Google GS) you likely want to set the public user-repository to a directory in that bucket.  This will mean the downloaded data is stored on the stable bucket storage rather than the temporary storage of a compute instance.
 
-The process-local location is a cache that is used by individual toolkit processes and cleaned when the processes end.  This should be set as local storage for the compute instance.
+The process-local location is a cache that is used by individual toolkit processes and cleaned when the processes end.  This should be set as local storage for the compute instance to improve speed.
+
+This example image is using local storage on an AWS EC2 instance for both the process-local and user-repository for demonstration purposes.  
+
+![Configure Cache](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_cache.png "Configure Cache")
 
 ## Cloud Provider Configuration
 
-By pressing `a` on the keyboard for Amazon AWS or `g` on the keyboard for Google GCP, you can configure the usage for your cloud provider.  Press `e` to enable user pays options for accessing data that is not stored in a free to access location.  This option will also require [cloud credentials](https://github.com/ncbi/sra-tools/wiki/03.-Cloud-Credentials "SRA Toolkit Cloud Credentials Guide") to be supplied. The current free data is stored at NCBI, in the AWS free bucket, or is stored in the cloud region that your client is currently running in.  The location of data in the cloud can be found using the Run Selector DATASTORE_region values.  The `r` report cloud instance identity option will allow the toolkit to report the identity of the cloud instance to NCBI when requesting data.  This information is used to understand the location of the cloud compute instance to provide access to free data locations for that compute instance when possible.  
+By pressing `a` on the keyboard for Amazon AWS or `g` on the keyboard for Google GCP, you can configure the usage for your cloud provider.  Press `e` to enable user pays options for accessing data that is not stored in a free to access location.  This option will also require [cloud credentials](https://github.com/ncbi/sra-tools/wiki/03.-Cloud-Credentials "SRA Toolkit Cloud Credentials Guide") to be supplied. The current free data is stored at NCBI, in the AWS free bucket, or is stored in the cloud region that your client is currently running in.  The location of data in the cloud can be found using the Run Selector DATASTORE_region values.  The `r` report cloud instance identity option will allow the toolkit to report the identity of the cloud instance to NCBI when requesting data.  This information is used to provide access to free data locations for that compute instance when possible.
+
+AWS Configuration Page
+
+![Configure AWS](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_aws.png "AWS Configuration")
+
+GCP Configuration Page
+
+![Configure GCP](https://github.com/NCBI-Hackathons/ncbi-cloud-tutorials/blob/master/images/tkt_gcp.png "GCP Configuration")
 
 Additional information about configuring the SRA Toolkit can be found [here](https://github.com/ncbi/sra-tools/wiki/).
 

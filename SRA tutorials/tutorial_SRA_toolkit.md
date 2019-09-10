@@ -53,7 +53,7 @@ The process-local location is a cache that is used by individual toolkit process
 
 By pressing `a` on the keyboard for Amazon AWS or `g` on the keyboard for Google GCP, you can configure the usage for your cloud provider.  Press `e` to enable user pays options for accessing data that is not stored in a free to access location.  This option will also require [cloud credentials](https://github.com/ncbi/sra-tools/wiki/03.-Cloud-Credentials "SRA Toolkit Cloud Credentials Guide") to be supplied. The current free data is stored at NCBI, in the AWS free bucket, or is stored in the cloud region that your client is currently running in.  The location of data in the cloud can be found using the Run Selector DATASTORE_region values.  The `r` report cloud instance identity option will allow the toolkit to report the identity of the cloud instance to NCBI when requesting data.  This information is used to understand the location of the cloud compute instance to provide access to free data locations for that compute instance when possible.  
 
-Additional information about configuring the SRA Toolkit can be found [here](https://github.com/ncbi/sra-tools/wiki/04.-Toolkit-Configuration).
+Additional information about configuring the SRA Toolkit can be found [here](https://github.com/ncbi/sra-tools/wiki/).
 
 ## Testing the SRA Toolkit Installation
 To test the installation of the toolkit, we will output a small bit of fastq to STDOUT.

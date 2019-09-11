@@ -72,4 +72,4 @@ Fasterq-dump is an updated version of the fastq-dump program.  It has a signific
   --option-file <file>             Read more options and parameters from the 
                                    file. 
 
-/usr/local/ncbi/sra-tools/bin/fasterq-dump : 2.10.0 ( 2.10.0-a )
+2.10.0 

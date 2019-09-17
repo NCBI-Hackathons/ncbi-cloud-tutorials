@@ -6,7 +6,7 @@ This guide will explain what scenarios each tools are best suited for and when t
 Goal | Recommended Tool | Comments
 --- | --- | ---
 Download a copy of source or SRR format data to my own storage | prefetch | Use `prefetch -T any <accession>` to include the source and analysis files as well.
-Read Files without storing locally | fusera | In most cases fusera will be the best choice for read in place operations
+Read Files without storing locally | fusera | In most cases fusera will be the best choice for read in place operations.
 See a list of all files available for an accession | fusera | The directory listing view from fusera is an easy way to view data you may choose to download a copy of to your own storage.
 Get fastq format data as one or more files | fasterq-dump | This program outputs fastq format data more quickly than fastq-dump but does require a bit of extra space for temporary files.
 Get bam/sam format data in a consistent format | sam-dump | sam-dump will output data that as gone through the ETL process at NCBI to make it as consistent as possible across submitters.

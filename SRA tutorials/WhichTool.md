@@ -5,8 +5,8 @@ This guide will explain what scenarios each tools are best suited for and when t
 
 Goal | Recommended Tool | Comments
 --- | --- | ---
-Read Files without storing locally | fusera | In most cases fusera will be the best choice for read in place operations
 Download a copy of source or SRR format data to my own storage | prefetch | Use `prefetch -T any <accession>` to include the source and analysis files as well.
+Read Files without storing locally | fusera | In most cases fusera will be the best choice for read in place operations
 See a list of all files available for an accession | fusera | The directory listing view from fusera is an easy way to view data you may choose to download a copy of to your own storage.
 
 

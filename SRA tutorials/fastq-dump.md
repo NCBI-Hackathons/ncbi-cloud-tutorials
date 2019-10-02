@@ -1,8 +1,8 @@
 # Fastq-dump
 
 ## Usage:
-/usr/local/ncbi/sra-tools/bin/fastq-dump [options] \<path> [\<path>...]  
-/usr/local/ncbi/sra-tools/bin/fastq-dump [options] \<accession>
+**/usr/local/ncbi/sra-tools/bin/fastq-dump [options] \<path> [\<path>...]**
+**/usr/local/ncbi/sra-tools/bin/fastq-dump [options] \<accession>**  
 
 ## INPUT
 Option (short) | Option (long) | Description

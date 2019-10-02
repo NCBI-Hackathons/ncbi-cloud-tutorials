@@ -100,18 +100,18 @@ Option (short) | Option (long) | Description
 -I|--readids |                    Append read id after spot id as 'accession.spot.readid' on defline 
 &nbsp;|--helicos |                       Helicos style defline 
 &nbsp;|--defline-seq <fmt> |             Defline format specification for sequence. 
-&nbsp;|--defline-qual <fmt> &nbsp; &nbsp; &nbsp; &nbsp; |            Defline format specification for quality.  <fmt> is string of characters and/or variables. The variables can be one of: $ac - accession, $si spot id, $sn spot name, $sg spot group (barcode), $sl spot length in bases, $ri read number, $rn read name, $rl read length in bases. '[]' could be used for an optional output: if all vars in [] yield empty values whole group is not printed. Empty value is empty string or for numeric variables. Ex: @$sn[_$rn]/$ri '_$rn' is omitted if name is empty
+&nbsp;|--defline-qual <fmt> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |            Defline format specification for quality.  <fmt> is string of characters and/or variables. The variables can be one of: $ac - accession, $si spot id, $sn spot name, $sg spot group (barcode), $sl spot length in bases, $ri read number, $rn read name, $rl read length in bases. '[]' could be used for an optional output: if all vars in [] yield empty values whole group is not printed. Empty value is empty string or for numeric variables. Ex: @$sn[_$rn]/$ri '_$rn' is omitted if name is empty
  
 ### OTHER:
 
 Option (short) | Option (long) | Description
 ---|---|---
-&nbsp;|--disable-multithreading |        disable multithreading 
+&nbsp;|--disable-multithreading &nbsp; &nbsp; &nbsp; |        disable multithreading 
 -h|--help |                       Output brief explanation of program usage 
 -V|--version |                    Display the version of the program 
 -L|--log-level <level> |          Logging level as number or enum string One of (fatal|sys|int|err|warn|info) or (0-5) Current/default is warn 
 -v|--verbose |                    Increase the verbosity level of the program Use multiple times for more verbosity 
-&nbsp;|--ncbi_error_report &nbsp; |             Control program execution environment report generation (if implemented). One of (never\|error\|always). Default is error 
+&nbsp;|--ncbi_error_report |             Control program execution environment report generation (if implemented). One of (never\|error\|always). Default is error 
 &nbsp;|--legacy-report |                 use legacy style 'Written spots' for tool 
 
 2.10.0

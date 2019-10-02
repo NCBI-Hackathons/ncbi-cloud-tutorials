@@ -1,4 +1,4 @@
-# How to Choose the Correct Tool to Use
+# Tool Suggestions for Common Actions
 
 Knowing which tool is best for your planned process is important and can save you both time and expense.  
 This guide will suggest the program to use for some common use cases.

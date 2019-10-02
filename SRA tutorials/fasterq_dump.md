@@ -7,7 +7,7 @@ Fasterq-dump is an updated version of the fastq-dump program.  It has a signific
 
 ## Options:
 
-Option (short) | Option (long) | Description
+Option (short) | Option (long) &nbsp; &nbsp; &nbsp; | Description
 ---|---|---
   -o|--outfile |                    output-file
   -O|--outdir  |                    output-dir 

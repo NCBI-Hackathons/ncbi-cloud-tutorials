@@ -11,10 +11,10 @@ Option (short) | Option (long) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description
 ---|---|---
   -o|--outfile |                    output-file
   -O|--outdir  |                    output-dir 
-  -b|--bufsize |                    size of file-buffer dflt=1MB 
-  -c|--curcache |                   size of cursor-cache dflt=10MB 
-  -m|--mem   |                      memory limit for sorting dflt=100MB 
-  -t|--temp   |                     where to put temp. files dflt=curr dir 
+  -b|--bufsize |                    size of file-buffer default=1MB 
+  -c|--curcache |                   size of cursor-cache default=10MB 
+  -m|--mem   |                      memory limit for sorting default=100MB 
+  -t|--temp   |                     where to put temp. files default=curr dir 
   -e|--threads |                    how many thread dflt=6 
   -p|--progress |                   show progress 
   -x|--details   |                  print details 
@@ -35,7 +35,7 @@ Option (short) | Option (long) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description
   -A|--append |    append to output-file 
   -h|--help |   Output brief explanation for the program. 
   -V|--version |  Display the version of the program then quit. 
-  -L|--log-level <level> | Logging level as number or enum string. One of (fatal|sys|int|err|warn|info|debug) or (0-6) Current/default is warn 
+  -L|--log-level <level> | Logging level as number or enum string. One of (fatal\|sys\|int\|err\|warn\|info\|debug) or (0-6) Current default is warn 
   -v|--verbose |Increase the verbosity of the program status messages. Use multiple times for more verbosity. Negates quiet. 
   -q|--quiet |     Turn off all status messages for the program. Negated by verbose. 
 &nbsp; |  --option-file <file> |    Read more options and parameters from the file. 

@@ -62,7 +62,7 @@ Option (short) | Option (long) | Description
 -O|--outdir <path> |              Output directory, default is working directory '.' ) 
 -Z|--stdout |                     Output to stdout, all split data become joined into single stream 
 &nbsp;|--gzip |                          Compress output using gzip: deprecated, not recommended 
-&nbsp;|--bzip2                          Compress output using bzip2: deprecated, not recommended 
+&nbsp;|--bzip2 |                         Compress output using bzip2: deprecated, not recommended 
 
 ## Multiple File Options              
 Setting these options will produce more than 1 file, each of which will be suffixed according to splitting criteria.

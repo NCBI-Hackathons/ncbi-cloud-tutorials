@@ -1,19 +1,19 @@
 # Prefetch
 
 ## Usage:
-#### prefetch [options] \<SRA accession | kart file> [...] 
+**prefetch [options] \<SRA accession | kart file> [...]**  
   Download SRA or dbGaP files and their dependencies
 
-####  prefetch [options] \<URL> --output-file <FILE>  
+**prefetch [options] \<URL> --output-file <FILE>**  
   Download URL to FILE
 
-####  prefetch [options] \<URL> [...] --output-directory <DIRECTORY>  
+**prefetch [options] \<URL> [...] --output-directory <DIRECTORY>**  
   Download URL or URL-s to DIRECTORY
 
-####  prefetch [options] \<SRA file> [...]  
+**prefetch [options] \<SRA file> [...]**  
   Check SRA file for missed dependencies and download them
 
-####  prefetch --list \<kart file> [...]  
+**prefetch --list \<kart file> [...]**  
   List content of kart file
 
 

@@ -49,7 +49,8 @@ Option (short) | Option (long) | Description
 &nbsp;|--aligned-region <name[:from-to]> | Filter by position on genome. Name can either be accession.version (ex: NC_000001.10) or file specific name (ex: "chr1" or "1"). "from" and "to" are 1-based coordinates 
 &nbsp;|--matepair-distance <from-to\|unknown> &nbsp; &nbsp; | Filter by distance between matepairs. Use "unknown" to find matepairs split between the references. Use from-to to limit matepair distance on the same reference 
 
-### Filters for individual reads       Applied only with --split-spot set
+### Filters for individual reads       
+Applied only with --split-spot set
 
 Option (short) | Option (long) | Description
 ---|---|---
@@ -100,7 +101,7 @@ Option (short) | Option (long) | Description
 -I|--readids |                    Append read id after spot id as 'accession.spot.readid' on defline 
 &nbsp;|--helicos |                       Helicos style defline 
 &nbsp;|--defline-seq <fmt> |             Defline format specification for sequence. 
-&nbsp;|--defline-qual <fmt> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |            Defline format specification for quality.  <fmt> is string of characters and/or variables. The variables can be one of: $ac - accession, $si spot id, $sn spot name, $sg spot group (barcode), $sl spot length in bases, $ri read number, $rn read name, $rl read length in bases. '[]' could be used for an optional output: if all vars in [] yield empty values whole group is not printed. Empty value is empty string or for numeric variables. Ex: @$sn[_$rn]/$ri '_$rn' is omitted if name is empty
+&nbsp;|--defline-qual <fmt> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |            Defline format specification for quality.  <fmt> is string of characters and/or variables. The variables can be one of: $ac - accession, $si spot id, $sn spot name, $sg spot group (barcode), $sl spot length in bases, $ri read number, $rn read name, $rl read length in bases. '[]' could be used for an optional output: if all vars in [] yield empty values whole group is not printed. Empty value is empty string or for numeric variables. Ex: @$sn[_$rn]/$ri '_$rn' is omitted if name is empty
  
 ### OTHER:
 

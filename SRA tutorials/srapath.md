@@ -1,7 +1,7 @@
 # SRAPATH
 
 ## Usage:
-**  srapath [options] \<accession\> ... **
+**srapath [options] \<accession\> ...**
 
 ## Summary:
   Tool to produce a list of full paths to files

@@ -2,6 +2,7 @@
 
 ## Usage:
 **/usr/local/ncbi/sra-tools/bin/fastq-dump [options] \<path> [\<path>...]**
+
 **/usr/local/ncbi/sra-tools/bin/fastq-dump [options] \<accession>**  
 
 ## INPUT
